@@ -1,0 +1,9 @@
+﻿namespace CourseSystem.Models
+{
+    public class Student : BaseUser
+    {
+        public string GroupNumber { get; set; }
+        public int Score { get; set; }
+
+    }
+}
